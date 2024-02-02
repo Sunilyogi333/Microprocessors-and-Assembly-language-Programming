@@ -15,7 +15,7 @@ MAIN PROC
     ADD AL,BL  
     PUSH AX
     jnc SKIP  
-    MOV DL, '1'
+    MOV Dl, '1'
     MOV AH, 02H
     INT 21H
     SKIP: POP AX
